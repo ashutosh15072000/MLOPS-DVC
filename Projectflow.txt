@@ -1,0 +1,20 @@
+## BUILDING PIPELINE:
+1. Create a Github repo and clone it in local (Add experiments).
+2. Add Src folder along with all components(run them individually).
+3  Add data,models,reports directories to .gitignore file.
+4. Now git add,commit,push
+
+
+echo "# MLOPS-DVC" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ashutosh15072000/MLOPS-DVC.git
+git push -u origin main
+
+
+Seting up dvc pipeline (without params)
+5.Create a new file folder called dvc.yaml and stages to it.
+6.Dvc init then do "dvc repro" test the pipeline automation. (check dvc dag)
+7.Now git add, commit,push
